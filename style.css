@@ -1,4 +1,5 @@
 body {
+  font-size: 100%; /* this sets the base font size for everything */
   background: #f9e933;
 }
 
@@ -11,11 +12,62 @@ header .container, main .container, footer .container {
   margin: auto;
 }
 
+main {
+  background: white;
+  overflow:auto;
+}
 
 header {
   background: white;
+  overflow: auto;
 }
 
-main {
-  background: white;
+header h1 {
+  float: left;
+  width: 570px;
 }
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+
+
+
+main h2 {
+  float: left;
+width: 570px;
+}
+
+main p {
+  float: left;
+  width: 570px;
+}
+
+main h3 {
+  float: left;
+  width: 570px;
+}
+
+main ul{
+  float: left;
+  width: 570px;
+}
+
+main img {
+  float: right;
+  width: 285px;
+}
+
+footer h5 {
+  float: left;
+  width: 570px;
+}
+
+footer h5 {
+  float: right;
+  width: 285px
+}
+
+
