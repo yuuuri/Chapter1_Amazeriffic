@@ -1,3 +1,6 @@
+/* Author: Yuri Van Steenburg */
+/* Class:  CS 473 Wednesday   */
+
 body {
   font-size: 100%; /* this sets the base font size for everything */
   background: #f9e933;
@@ -10,11 +13,6 @@ header, main, footer {
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
-}
-
-main {
-  background: white;
-  overflow:auto;
 }
 
 header {
@@ -33,11 +31,14 @@ header nav {
 }
 
 
-
+main {
+  background: white;
+  overflow:auto;
+}
 
 main h2 {
   float: left;
-width: 570px;
+  width: 570px;
 }
 
 main p {
