@@ -1,28 +1,31 @@
-/* Author: Yuri Van Steenburg */
-/* Class:  CS 473 Wednesday   */
+/* Yuri Van Steenburg */
+
 
 body {
-  font-size: 100%; /* this sets the base font size for everything */
   background: #f9e933;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 100%;
 }
 
-header, main, footer {
+header, main, footer{
   min-width: 855px;
 }
 
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
+  border: 1px dashed red; 
 }
 
-header {
+header
+{
   background: white;
   overflow: auto;
 }
 
-header h1 {
-  float: left;
+header .container h1 {
   width: 570px;
+  float: left;
 }
 
 header nav {
@@ -31,44 +34,89 @@ header nav {
 }
 
 
+
 main {
   background: white;
-  overflow:auto;
+  overflow: auto;
 }
 
-main h2 {
+.main_left {
   float: left;
   width: 570px;
 }
 
-main p {
+.lightbulb {
+  float: right;
+  width: 285px; 
+}
+
+footer {
+  overflow: auto;
+}
+
+
+.contact {
   float: left;
   width: 570px;
 }
 
-main h3 {
-  float: left;
-  width: 570px;
-}
-
-main ul{
-  float: left;
-  width: 570px;
-}
-
-main img {
+.sitemap {
   float: right;
   width: 285px;
 }
 
-footer h5 {
+.sitemap_left {
   float: left;
-  width: 570px;
 }
 
-footer h5 {
+.sitemap_right {
   float: right;
-  width: 285px
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+h3 {
+  font-size: large;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.0em;
+}
+
+h6 {
+  font-size: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
