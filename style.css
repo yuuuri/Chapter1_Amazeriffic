@@ -14,23 +14,26 @@ header, main, footer{
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
-  border: 1px dashed red; 
 }
 
 header
 {
   background: white;
   overflow: auto;
+  border-bottom: 2px solid lightgray;
 }
 
 header .container h1 {
   width: 570px;
   float: left;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 header nav {
   float: right;
   width: 285px;
+  margin-top: 15px;
 }
 
 
@@ -43,11 +46,30 @@ main {
 .main_left {
   float: left;
   width: 570px;
+  margin-top:50px;
+  margin-bottom: 50px;
 }
+
+.main_left_upper, .main_left_lower {
+  margin-bottom: 30px;
+}
+
+.p_1, .p_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p_1 p, .p_2 p {
+  padding-bottom: 1em;  
+  margin-bottom: 3em; 
+}
+
 
 .lightbulb {
   float: right;
-  width: 285px; 
+  width: 285px;
+  margin-top: 10px;
+  margin-bottom: 30px; 
 }
 
 footer {
@@ -58,11 +80,18 @@ footer {
 .contact {
   float: left;
   width: 570px;
+ 
+}
+
+footer .container .contact h5, footer .container .sitemap h5 {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .sitemap {
   float: right;
   width: 285px;
+
 }
 
 .sitemap_left {
@@ -79,11 +108,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: xx-large;
+    font-size: 3.0em;
 }
 
 h2 {
-  font-size: x-large;
+  font-size: 2.1em; 
 }
 
 h3 {
@@ -102,8 +131,25 @@ h6 {
   font-size: 0.5em;
 }
 
+.amazeriffic {
+  color: maroon;
+  font-style: italic;
+}
 
+a {
+  color: red;
+  text-decoration: none;
+}
 
+a:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+
+}
+
+.sitemap_left li, .sitemap_right li {
+  margin: 0 0 5px 0;
+}
 
 
 
