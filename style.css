@@ -50,18 +50,26 @@ main {
   margin-bottom: 50px;
 }
 
-.main_left_upper, .main_left_lower {
-  margin-bottom: 30px;
+.main_left_upper {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
 }
 
+.main_left_lower {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+
 .p_1, .p_2 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .p_1 p, .p_2 p {
-  padding-bottom: 1em;  
-  margin-bottom: 3em; 
+  line-height: 1.2em;
 }
 
 
@@ -69,7 +77,11 @@ main {
   float: right;
   width: 285px;
   margin-top: 10px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
+}
+
+#lightbulb {
+  padding: 10px;
 }
 
 footer {
