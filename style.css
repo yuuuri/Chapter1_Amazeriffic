@@ -1,5 +1,5 @@
 /* Yuri Van Steenburg */
-
+/* HW2 - CS473 Spring 2015 */
 
 body {
   background: #f9e933;
@@ -77,12 +77,10 @@ main {
   float: right;
   width: 285px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  max-height: 400px;
+  margin-bottom: 20px;
 }
 
-#lightbulb {
-  padding: 10px;
-}
 
 footer {
   overflow: auto;
