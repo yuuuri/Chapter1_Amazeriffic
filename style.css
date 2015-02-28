@@ -68,10 +68,14 @@ main {
   margin-bottom: 20px;
 }
 
-.p_1 p, .p_2 p {
+.p_1 p, .p_2 p  {
   line-height: 1.2em;
 }
 
+.bullet_list {
+  list-style: circle;
+  line-height: 1.2em;
+}
 
 .lightbulb {
   float: right;
@@ -121,12 +125,19 @@ h1 {
     font-size: 3.0em;
 }
 
+.faq_h1 {
+  color: cornflowerblue;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
 h2 {
   font-size: 2.1em; 
 }
 
 h3 {
   font-size: large;
+  padding: 10px 0;  
 }
 
 h4 {
