@@ -125,10 +125,10 @@ h1 {
     font-size: 3.0em;
 }
 
-.faq_h1 {
+.faq_h2 {
   color: cornflowerblue;
   font-style: italic;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -137,7 +137,14 @@ h2 {
 
 h3 {
   font-size: large;
-  padding: 10px 0;  
+}
+
+.faq_q_h3 {
+  color:blue;
+  background-color: lavender;
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px;
 }
 
 h4 {
